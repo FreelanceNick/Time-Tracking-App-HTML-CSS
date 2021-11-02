@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <section class="card card__user">
+      <div class="user">
+        <img src="./images/image-jeremy.png" alt="Jeremy Robson" class="user__pic">
+        <p class="report">Report for</p>
+        <h1 class="user__name">Jeremy Robson</h1>
+      </div>
+    
+      <div class="occurances">
+        <label>
+          <input type="radio" value="daily" name="occured" />
+          Daily
+        </label>
+        <label>
+          <input type="radio" value="weekly" name="occured" />
+          Weekly
+        </label>
+        <label>
+          <input type="radio" value="monthly" name="occured" />
+          Monthly
+        </label>
+      </div>
+    </section>
+
+    <section class="card card__img-work">
+      <div class="card__content">
+        <h2 class="subtitle">Work</h2>
+        <p class="card__current">5hrs <!-- daily --></p>
+        <p class="card__previous">Previous - 7hrs <!-- daily --></p>
+      </div>
+    </section>
+  
+    <section class="card card__img-play">
+      <div class="card__content">
+        <h2 class="subtitle">Play</h2>
+        <p class="card__current">1hr <!-- daily --></p>
+        <p class="card__previous">Previous - 2hrs <!-- daily --></p>
+      </div>
+    </section>
+  
+    <section class="card card__img-study">
+      <div class="card__content">
+        <h2 class="subtitle">Study</h2>
+        <p class="card__current">0hrs <!-- daily --></p>
+        <p class="card__previous">Previous - 1hr <!-- daily --></p>
+      </div>
+    </section>
+  
+    <section class="card card__img-exercise">
+      <div class="card__content">
+        <h2 class="subtitle">Exercise</h2>
+        <p class="card__current">1hr <!-- daily --></p>
+        <p class="card__previous">Previous - 1hr <!-- daily --></p>
+      </div>
+    </section>
+  
+    <section class="card card__img-social">
+      <div class="card__content">
+        <h2 class="subtitle">Social</h2>
+        <p class="card__current">1hr <!-- daily --></p>
+        <p class="card__previous">Previous - 3hrs <!-- daily --></p>
+      </div>
+    </section>
+  
+    <section class="card card__img-selfCare">
+      <div class="card__content">
+        <h2 class="subtitle">Self Care</h2>
+        <p class="card__current">0hrs <!-- daily --></p>
+        <p class="card__previous">Previous - 1hr <!-- daily --></p>
+      </div>
+    </section>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
